@@ -1,0 +1,40 @@
+@-moz-document domain("docs.python.org") {
+body, div, h1, h2, h3, h4, h5, h6 {
+    background: black !important;
+    color: white !important;
+}
+a {
+    color: mediumaquamarine !important;
+}
+code > span, code {
+    background: #424242 !important;
+    color: white !important;
+}
+pre {
+    background: #424242 !important;
+    color: white !important;
+}
+pre > span.go {
+    color: gray !important;
+}
+table, tr, th, td {
+    background: black !important;
+    color: white !important;
+}
+button, input, select {
+    background: black !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border-color: white !important;
+    padding: 2px !important;
+    outline: none !important;
+}
+input:focus {
+    border: 2px solid white !important;
+}
+input[type="submit"]:hover {
+    background: white !important;
+    color: black !important;
+    transition: .3s;
+}
+}

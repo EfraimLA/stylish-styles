@@ -1,0 +1,121 @@
+@-moz-document domain("docs.openshift.com") {
+body {
+    background: black !important;
+    color: white !important;
+}
+p, ol, ul, li, strong, h1, h2, h3, h4, h5, h6,span,code {
+    color: white !important;
+}
+a {
+    color: #e00 !important;
+}
+li > a {
+    color: white !important;
+}
+a.active {
+    background: #424242 !important;
+}
+select, input, button {
+    color: black !important;
+}
+.title {
+    color: #E6F566 !important;
+}
+.content pre, code, .nowrap, #hc-modal-content, .dropdown-menu{
+    background: #424242 !important;
+    color: white !important;
+}
+.exampleblock .content {
+    background: #424242 !important;
+}
+.exampleblock table, .exampleblock td, .exampleblock th {
+    background: #424242 !important;
+    color: white !important;
+}
+table, thead, td, th, tr, .tableblock {
+    color: white !important;
+    background: black !important;
+}
+#version-selector{
+    background: black !important;
+    color: white !important;
+    border-radius: 5px !important;
+}
+
+button, input, a.btn{
+    background: black !important;
+    color: white !important;
+    border-radius: 5px !important;
+    border-color: white !important;
+}
+
+a.btn:hover,button:hover{
+    background: white !important;
+    color: black !important;
+    transition: .3s !important;
+}
+
+a.dropdown-toggle:hover,
+a.nav-sign-up:hover,
+a.nav-sign-in:hover{
+    color: red !important;
+    transition: .2s;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+input{
+    padding: 5px !important;
+}
+
+#hc-modal-content{
+    border-radius: 10px !important;
+}
+
+.dropdown-menu{
+    border-radius: 8px !important;
+}
+
+.dropdown-menu a:hover{
+    background: initial !important;
+    color: initial !important;
+
+}
+
+.navbar-brand{
+    margin-top: 5px !important;
+}
+
+.title-inner > h1{
+color: black !important;
+}
+
+#cse-search-form-body{
+    background: black !important;
+    border-color: transparent !important;
+    border-radius: 8px !important;
+}
+
+#hc-search-progress-indicator  > i.fa{
+    color: red !important;
+}
+
+code[data-lang="yaml"] > span[style="color:#606"]{
+    color: #FF1100 !important;
+}
+
+code[data-lang="yaml"] > span[style="background-color:hsla(0,100%,50%,0.05)"]{
+    background: transparent !important;
+}
+
+code[data-lang="yaml"] span[style="color:#D20"]{
+    color: pink !important;
+}
+
+code[data-lang="yaml"] > span[style="color:#F00;background-color:#FAA"],
+code[data-lang="yaml"] > span[style="color:#F00;background-color:#FAA;"]{
+    background-color: rgba(0,0,0,.5) !important;
+}
+}
