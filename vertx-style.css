@@ -1,0 +1,24 @@
+@-moz-document domain("vertx.io") {
+body, #content {
+    background: black !important;
+    color: white !important;
+}
+.listingblock pre {
+    background: rgb(71, 73, 73) !important;
+    color: white !important;
+}
+a {
+    color: #C3A0FF !important;
+}
+.paragraph code, .paragraph code a, .ulist code, .ulist code a {
+    color: #C3A0FF !important;
+    background: rgb(71, 73, 73) !important;
+}
+header {
+    background: black !important;
+    color: white !important;
+}
+.container {
+    width: 80% !important;
+}
+}
