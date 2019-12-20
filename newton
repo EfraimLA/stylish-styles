@@ -1,0 +1,18 @@
+body, div{
+    background: black !important;
+    color: white !important;
+}
+
+p,h1,h2,h3,h4,h5,h6,span{
+    background: black !important;
+	color: white !important;
+}
+
+li{
+    color: white !important;
+}
+
+.gtx-content, .gtx-content .gtx-body,.gtx-bubble, .gtx-td, .gtx-body, #translation,.gtx-language, #buble-content, #translation div, #gtx-host, #gtx-host div{
+	color: white !important;
+    background: black !important;
+}
